@@ -1,0 +1,10 @@
+[package]
+name = "kt-format"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = ["proc"]
+
+[dependencies]
+proc = { path = "proc" }
