@@ -1,0 +1,11 @@
+[package]
+name = "kt-log"
+edition.workspace = true
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn.workspace = true
+paste.workspace = true
+kt-core = {path = "../../core"}
