@@ -58,9 +58,9 @@ fn panic() {
 }
 
 #[test]
-#[should_panic(expected = "test todo")]
+#[should_panic(expected = "test todo: 42")]
 fn todo() {
-    kt::todo!("test todo");
+    kt::todo!("test todo: ${}", 42);
 }
 
 #[test]
